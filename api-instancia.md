@@ -72,11 +72,11 @@ No site da [AWS](console.aws.amazon.com/console),
 
 ![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/11awsinstanciasconectar.png)
 
-    * para se conectar com o shell da AWS, utilize a aba **Conexão de instância do EC2**, com o tipo de conexão **Conectar-se usando o EC2 Instance Connect**, e clique em **Conectar**.
+* para se conectar com o shell da AWS, utilize a aba **Conexão de instância do EC2**, com o tipo de conexão **Conectar-se usando o EC2 Instance Connect**, e clique em **Conectar**.
 
 ![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/12awsconectarshell.png)
 
-    * para se conectar com o Cliente SSH, vá na aba **Cliente SSH** e siga as instruções.
+* para se conectar com o Cliente SSH, vá na aba **Cliente SSH** e siga as instruções.
 
 ![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/13awsinstanciassh.png)
 

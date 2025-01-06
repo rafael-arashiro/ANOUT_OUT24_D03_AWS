@@ -1,7 +1,7 @@
 
 # Processo de instalação do banco de dados no EC2
 
-Segue os passos para instalar o banco de dados no EC2 da AWS:
+Seguem os passos para instalar o banco de dados no EC2 da AWS:
 
 * no terminal, digite: **sudo apt update** e **sudo apt install postgresql** para instalar o Postgresql;
 
