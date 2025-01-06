@@ -3,7 +3,7 @@
 
 O deploy da api pode ser feita em duas instâncias EC2 da AWS. Uma para a api e uma para o banco de dados.
 
-**Segue os passos para a criação das instâncias:**
+**Passos para a criação das instâncias:**
 
 No site da [AWS](console.aws.amazon.com/console), 
 * clique em [Todos os serviços](console.aws.amazon.com/console/services);
@@ -37,7 +37,7 @@ No site da [AWS](console.aws.amazon.com/console),
     * Nome do par de chaves: node-api-key;
     * Tipo de par de chaves: RSA;
     * Formato de arquivo de chave privada: .pem;
-    * clique em **Criar par de chaves**.
+    * clique em Criar par de chaves.
 
 ![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/7awsapikey.png)
 
@@ -63,3 +63,21 @@ No site da [AWS](console.aws.amazon.com/console),
 * clique em **Executar instância**.
 
 ![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/10awsexecutar.png)
+
+**Acesso às instâncias reomtamente:**
+
+É possível acessar pelo shell da própria AWS ou por um cliente SSH.
+
+* clique em **Instâncias**, selecione a instância e clique em **Conectar**;
+
+![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/11awsinstanciasconectar.png)
+
+    * para se conectar com o shell da AWS, utilize a aba **Conexão de instância do EC2**, com o tipo de conexão **Conectar-se usando o EC2 Instance Connect**, e clique em **Conectar**.
+
+![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/12awsconectarshell.png)
+
+    * para se conectar com o Cliente SSH, vá na aba **Cliente SSH** e siga as instruções.
+
+![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/13awsinstanciassh.png)
+
+![](https://github.com/rafael-arashiro/ANOUT_OUT24_D03_AWS/blob/main/ec2_images/14awssshconect.png)
