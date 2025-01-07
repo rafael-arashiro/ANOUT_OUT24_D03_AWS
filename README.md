@@ -8,6 +8,6 @@ Host:
 
 Usuário: rafael@mail.com.br
 
-Senha: rafael
+Senha: root
 
 Html do swagger: [http://node-api-bucket-rafael.s3-website.us-east-2.amazonaws.com/](http://node-api-bucket-rafael.s3-website.us-east-2.amazonaws.com/)
